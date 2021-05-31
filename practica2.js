@@ -11,3 +11,12 @@ let usersMapped = users.map(user => ({
 }));
 console.log( usersMapped);
 //EJERCICIO 2///
+let fruits = ["Apples", "Pear", "Orange"]
+let shoppingCart = fruits;shoppingCart.push("Banana")
+console.log( fruits.length );
+console.log( fruits);
+//el elemento push agrega elemento al final de array , el resultado es 4 en este ejemplo:
+///4
+///[ 'Apples', 'Pear', 'Orange', 'Banana' ]//
+
+///EJERCICIO 3///
