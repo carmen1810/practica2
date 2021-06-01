@@ -41,3 +41,11 @@ let filtered = filterRange(arr, 1, 4);
 console.log(filtered);
 console.log(arr)
 //EJERCICIO 5//
+function copySorted(arr) {
+  return arr.slice().sort();
+}
+let arr = ["HTML", "JavaScript", "CSS"];
+let sorted = copySorted(arr);
+console.log(arr)
+console.log(sorted)
+///ejercicio 6///
