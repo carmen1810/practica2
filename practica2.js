@@ -20,3 +20,13 @@ console.log( fruits);
 ///[ 'Apples', 'Pear', 'Orange', 'Banana' ]//
 
 ///EJERCICIO 3///
+let styles=["Jazz", "Blues"]
+styles.push("Rock-n-Roll")
+console.log(styles);
+styles[Math.floor((styles.length - 1) / 2)] = "Classics";
+console.log(styles);
+delete styles[0]
+console.log(styles);
+styles.unshift("Rap", "Reggae")
+console.log(styles);
+//EJERCICIO 4//
