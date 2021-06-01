@@ -82,3 +82,8 @@ let result = powerCalc.calculate("2 ** 3")
 
 console.log(result)
 //EJERCICIO 7///
+let message = (login == 'Empleado') ? 'Hola' :
+  (login == 'Director') ? 'Felicidades' :
+  (login == '') ? 'Sin sesión' :
+  '';
+  console.log(message)
